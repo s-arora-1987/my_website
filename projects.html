@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Projects</title>
+    <link href="./styles/core.css" rel="stylesheet" />
+    <link href="./styles/main.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+    <!-- header -->
+    <header class="header">
+        <ul>
+            <li>
+                <a href="./index.html">
+                    <h2>About</h2>
+                </a>
+            </li>
+            <li class="header-selected">
+                <a href="./projects.html">
+                    <h2>Projects</h2>
+                </a>
+            </li>
+            <li>
+                <a href="./recognitions.html">
+                    <h2>Recognitions</h2>
+                </a>
+            </li>
+            <li>
+                <a href="./resume.html">
+                    <h2>Resume</h2>
+                </a>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </header>
+
+
+
+    <!-- content -->
+    <div class="content">
+
+        <!-- projects -->
+        <div class="projects pages">
+
+            <p>
+                My projects on statistical machine learning methods focused on a diverse set of topics, and I have broadly divided them into following 3 categories.
+            </p>
+
+            <div class="projects-box">
+
+                <p>
+                    <b>Category 1 ) Learning from Demonstration</b>
+                </p>
+
+                <p>
+                    Topics: Learning from Demonstration, Imitation Learning, Inverse Reinforcement Learning
+                </p>
+
+                <ul>
+                    <li>
+                        <h4>Online Inverse Reinforcement Learning Under Occlusion.</h4>
+                        <p>
+                            Inverse reinforcement learning (IRL) is the problem of learning the preferences of an agent from observing its behavior on a task. While this problem is witnessing sustained attention, the related problem of online IRL– where the observations are incrementally
+                            accrued,yet the real-time demands of the application often prohibit a full rerun of an IRL method – has received much less attention. We introduce a formal framework for online IRL, called incremental IRL (I2RL), and a new
+                            method that advances maximum entropy IRL with missing training data, to this setting. Our formal analysis shows that the new method has a monotonically improving performance with more demonstration data, as well as probabilistically
+                            bounded error,both under full and partial observability.
+                        </p>
+                        <a class="btn-blue" href="http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p1170.pdf">Paper</a>
+                        <a class="btn-blue" href="https://docs.google.com/presentation/d/e/2PACX-1vQEt4YMGNmiVFeSWbOkk0-9P1BeNAFL0xdEKcV16-jA3lBbALUTF2mHzRkkzu3QGQ/embed?start=true&loop=true&delayms=3000">Presentation (PPT)</a>
+                        <a class="btn-blue" href="https://drive.google.com/file/d/1CRddwh0JMckUsJZSU4SXhrsthoEnM_cB/preview">Video</a>
+                        <a class="btn-blue" href="https://github.com/s-arora-1987/sawyer_i2rl_project_workspace">Code</a>
+                        <div class="clear"></div>
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQEt4YMGNmiVFeSWbOkk0-9P1BeNAFL0xdEKcV16-jA3lBbALUTF2mHzRkkzu3QGQ/embed?start=true&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1CRddwh0JMckUsJZSU4SXhrsthoEnM_cB/preview"></iframe>
+                    </li>
+                    <li>
+                        <h4>Extension of above project from conference paper to a journal paper</h4>
+                        <a class="btn-blue" href="https://link.springer.com/article/10.1007/s10458-020-09485-4">Journal Paper</a>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <h4>Maximum Entropy Multi-Task Inverse Reinforcement Learning.</h4>
+                        <p>
+                            Multi-task IRL allows for the possibility that the expert could be switching between multiple ways of solving the same problem, or interleaving demonstrations of multiple tasks. The learner aims to learn the multiple reward functions that guide these
+                            ways of solving the problem. We present a new method for multi-task IRL that generalizes the well-known maximum entropy approach to IRL by combining it with the Dirichlet process based clustering of the observed input. This
+                            yields a single nonlinear optimization problem, called MaxEnt Multi-task IRL, which can be solved using the Lagrangian relaxation and gradient descent methods.
+                        </p>
+                        <a class="btn-blue" href="https://arxiv.org/abs/2004.12873">Paper</a>
+                        <a class="btn-blue" href="https://drive.google.com/file/d/1UpOqgZ8_5tVPlQXkEea2jRDkeKOBU0wB/view?usp=sharing">Presentation (PPT)</a>
+                        <a class="btn-blue" href="https://drive.google.com/file/d/1iyXdlavGJSdmkdR1torzl8VnsMMqmJ4z/view?usp=sharing">Video</a>
+                        <a class="btn-blue" href="https://github.com/s-arora-1987/sawyer_i2rl_project_workspace">Code</a>
+                        <div class="clear"></div>
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSMSZ74C07o3Dqk_y87rK1ii93VPl9af_K2tPjWVqsAYmqNJ0B-F0-iOF_RMZONRg/embed?start=true&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        <iframe src="https://drive.google.com/file/d/1UpOqgZ8_5tVPlQXkEea2jRDkeKOBU0wB/preview"></iframe>
+                    </li>
+                    <li>
+                        <h4>A Survey of Inverse Reinforcement Learning: Challenges, Methods and Progress.</h4>
+                        <p>
+                            Inverse reinforcement learning is the problem of inferring the reward function of an observed agent, given its policy or behavior. Researchers perceive IRL both as a problem and as a class of methods. By categorically surveying the current literature
+                            in IRL, this article serves as a reference for researchers and practitioners in machine learning to understand the challenges of IRL and select the approaches best suited for the problem on hand.
+                        </p>
+                        <a class="btn-blue" href="https://arxiv.org/abs/1806.06877">Journal Paper</a>
+                        <a class="btn-blue" href="https://aaai.org/Conferences/AAAI-18/aaai18tutorials/#fp2">AAAI conference 2018</a>
+                        <a class="btn-blue" href="https://outlookuga-my.sharepoint.com/:p:/g/personal/sa08751_uga_edu/EXWYF2u20OpLiKYoDH9VexcBTr1MQkUNv6bctGBA3SEsNg?e=ewcYmw">Presentation (PPT)</a>
+                        <div class="clear"></div>
+                        <iframe src="https://outlookuga-my.sharepoint.com/personal/sa08751_uga_edu/_layouts/15/Doc.aspx?sourcedoc={6b179875-d0b6-4bea-88a6-280c7f557b17}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaa=1" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+                    </li>
+                    <li>
+                        <h4>Programming by demonstration for Locally k-Testable tasks.</h4>
+                        <p>
+                            We propose PbD (Programming by Demonstration) of the tasks representable as Locally k-Testable (or LTk) subclass of regular languages, in a system modeled as a Markov Decision Process. The method uses predicate abstraction and language identification
+                            in the limit to infer a symbolic task. Proposed approach is compared with a maximum-margin inverse reinforcement learning method.
+                        </p>
+                        <a class="btn-blue" href="https://ieeexplore.ieee.org/document/7535995">Paper</a>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="projects-box">
+
+                <p>
+                    <b>Category 2 ) Computer Vision and Planning</b>
+                </p>
+
+                <p>
+                    Topics: Deep Learning using video data, Computer Vision, Multi Agent Reinforcement Learning
+                </p>
+
+                <ul>
+                    <li>
+                        <h4>Tracking the 3D locations of objects in a sorting task.</h4>
+                        <p>
+                            With my team (<a href="https://easali.me/">Ehsan Asali</a>, <a href="https://github.com/FarahSaeed">Farah Saeed</a>), I worked on a real-time implementation of a pipeline using Tensorflow/ PyTorch RCNN based architecture for
+                            detecting the classes of moving objects and finding their 3D locations via point cloud.
+                        </p>
+                        <img src="https://github.com/s-arora-1987/sawyer_i2rl_project_workspace/blob/master/sorting_task_1.gif?raw=true" />
+                    </li>
+                    <li>
+                        <h4>
+                            Simulated a multi-robot team that uses using RL (reinforcement learning) for decentralized localization and mapping using teleoperated robots with
+                            < 50% intra-team communication</h4>
+                                <a class="btn-blue" href="https://www.youtube.com/embed/PQwsdWGByyA">Video</a>
+                                <div class="clear"></div>
+                                <iframe src="https://www.youtube.com/embed/PQwsdWGByyA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </li>
+                    <li>
+                        <h4>Region of Interest Pooling in Object Tracking.</h4>
+                        <p>
+                            In most online trackers for moving objects, an object is recognized by choosing between bounding boxes corresponding to locations likely for the object, the boxes are called region proposals or regions of interest. Region-of-Interest (RoI) pooling has
+                            been shown to improve the processing speed of object recognizers, but it has never been tried on an object tracker. The investigation reveals whether a tool improving object recognition processes is effective in object tracking
+                            or not.
+                        </p>
+                        <a class="btn-blue" href="https://github.com/s-arora-1987/tf-adnet-tracking">Code</a>
+                        <div class="clear"></div>
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTCthTPRs2E1l5ordCkQz4JDYIOwwUCHCCgIr34W-6EVCAY5KJHB4cR4UH99qa4z8kQapTIQ8wSourf/embed?start=true&loop=true&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="projects-box">
+
+                <p>
+                    <b> Category 3 ) Data Science</b>
+                </p>
+
+                <p>
+                    Topics: Deep Learning with text data, Classification of text data, Natural Language Processing (NLP)
+                </p>
+
+                <ul>
+                    <li>
+                        <h4>Sentiment Analysis web app using AWS Sagemaker and Lambda Function. Creating a Pytorch model for classifying movie reviews. I used RNN-LSTM architecture and deployed that model in Amazon Sagemaker. Users could access it as a web
+                            application through an open endpoint Amazon Lambda function communicating with API at backend.</h4>
+                        <a class="btn-blue" href="https://github.com/s-arora-1987/sentimentAnalysis-sagemaker-deployment">Code</a>
+                        <div class="clear"></div>
+                        <img src="./images/Web App Diagram.svg" />
+                    </li>
+                    <li>
+                        <h4>Collaborative filtering recommendation systems using different Spark data structures.</h4>
+                        <p>
+                            Used Spark cluster on GCP cloud for creating collaborative filtering based recommendation system
+                        </p>
+                        <a class="btn-blue" href="https://github.com/s-arora-1987/Comparison_PySpark_df_RDD_mllatest_dataset_GCP_cluster">Code</a>
+                        <div class="clear"></div>
+                    </li>
+                    <li>
+                        <h4>Categorizing the messages during disaster for strategizing disaster response.</h4>
+                        <p>
+                            The aim of the project was to learn how to create ETL (Extract-Transform-Load) and ML (Machine Learning) pipelines categorizing tweets from real-life disasters. I created workflows for cleaning and tokenizing textual data, saving it as a database, using
+                            cleaned data for tuning the hyperparameters of a multi-output classifier, and using the resulting model in a web app.
+                        </p>
+                        <a class="btn-blue" href="https://github.com/s-arora-1987/Disaster-Response-App">Code</a>
+                        <div class="clear"></div>
+                        <img src="./images/histogram.png" />
+                    </li>
+                    <li>
+                        <h4>Quora Question Pairs Similarity Prediction.</h4>
+                        <p>
+                            With my team, I implemented a machine learning project to predict if any pair of two questions on Quora platform have similar intent or not. We used N-gram, word frequency, word probability and Inverse document frequency for pre-processing and feature
+                            construction in an unstructured text data. Then we applied a collection of ML algorithms (SVM, random forest, Naive Bayes and Logistic Regression) to compare their performances. The best method achieved 79 % accuracy.
+                        </p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

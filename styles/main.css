@@ -1,0 +1,322 @@
+body {
+    background: #FAFAFA;
+}
+
+
+/* header */
+
+header.header {
+    z-index: 9999;
+    display: block;
+    padding: 10px 30px;
+    background: #263238;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header.header ul {
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    width: -o-fit-content;
+    width: -webkit-fit-content;
+}
+
+header.header ul li {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+
+header.header ul li:last-child {
+    margin-right: 0;
+}
+
+header.header ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.70);
+    border-radius: 10px;
+    text-align: center;
+}
+
+header.header ul li a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.10);
+    transition: all .2s;
+}
+
+header.header ul li a h2 {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+header.header ul li.header-selected a {
+    display: block;
+    color: #fff;
+}
+
+header.header ul li.header-selected::after {
+    display: block;
+    content: '';
+    height: 5px;
+    background: linear-gradient(-45deg, #1AC67E, #0AC2B7);
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    right: 10%;
+    bottom: -10px;
+    left: 10%;
+}
+
+
+/* content */
+
+div.content {
+    display: block;
+    padding: 120px 30px 0 30px;
+    max-width: 1200px;
+}
+
+
+/* about */
+
+div.about {
+    display: block;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+div.about section.about-image {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: calc( 50% - (300px / 2));
+    left: 0;
+}
+
+div.about section.about-image img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+div.about div.about-text {
+    display: block;
+    margin-left: 150px;
+    padding: 60px 50px;
+    padding-left: 200px;
+    width: calc(100% - 400px);
+    background: linear-gradient(-45deg, #B6BCF2, #DEDDF0);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+}
+
+div.about div.about-text h1 {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+div.about div.about-text h1 span {
+    display: inline-block;
+    font-size: 45px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+div.about div.about-text p {
+    display: block;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.60);
+}
+
+
+/* contact */
+
+div.contact {
+    display: block;
+    margin-bottom: 60px;
+}
+
+div.contact h3 {
+    display: block;
+    margin-bottom: 30px;
+    font-size: 45px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+}
+
+div.contact ul {
+    display: block;
+    margin: 0 auto;
+    list-style-type: none;
+    width: fit-content;
+    width: -moz-fit-content;
+    width: -ms-fit-content;
+    width: -o-fit-content;
+    width: -webkit-fit-content;
+}
+
+div.contact ul li {
+    float: left;
+    margin-right: 20px;
+    width: 50px;
+}
+
+div.contact ul li:last-child {
+    margin-right: 0;
+}
+
+div.contact ul li a {
+    display: block;
+}
+
+div.contact ul li a img {
+    display: block;
+    width: 100%;
+}
+
+div.contact p {
+    display: block;
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+}
+
+
+/* pages */
+
+div.pages {
+    display: block;
+    margin-bottom: 60px;
+}
+
+div.pages h3 {
+    display: block;
+    margin-bottom: 60px;
+    font-size: 45px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+}
+
+div.pages p {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+div.pages p a {
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+div.pages p b {
+    display: inline-block;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: normal;
+}
+
+div.pages ul {
+    list-style-type: none;
+}
+
+div.pages ul li {
+    display: block;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-top: 3px dashed rgba(0, 0, 0, 0.10);
+    position: relative;
+}
+
+div.pages ul li::after {
+    display: block;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(-45deg, #1AC67E, #0AC2B7);
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+div.pages ul li p {
+    margin-bottom: 30px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: justify;
+}
+
+div.pages ul li img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+div.pages ul li iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+div.pages ul li a.btn-blue {
+    display: block;
+    float: left;
+    margin: 0 10px;
+    margin-bottom: 30px;
+    width: calc( (100% - 160px) / 4);
+    background: linear-gradient(-45deg, #2CC9CC, #20E4A4);
+}
+
+
+/* projects */
+
+div.projects-box {
+    display: block;
+    margin-top: 60px;
+    padding: 40px 60px 30px 60px;
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+}
+
+div.projects-box h4 {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 29px;
+    line-height: 35px;
+    color: #00796B;
+    text-align: justify;
+}
+
+div.projects-box h4 a {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 40px;
+}
